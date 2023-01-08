@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.main-title {
+  text-transform: uppercase;
+  color: rgb(1, 10, 39);
+  font-size: 40px; 
+  font-family: Courier;
+  padding: 15px;
+}
+
+.button-box button{
+ padding: 5px 20px;
+ background: rgb(249, 4, 4);
+ color: rgb(253, 252, 252);
+ font-size: 20px;
+ transition: all .5s;
+ -webkit-transition: all .5s;
+ -moz-transition: all .5s;
+ -ms-transition: all .5s;
+ -o-transition: all .5s;
+}
+.button-box button:hover{
+  background: rgb(155, 2, 2);
+ 
+}
+
+
+
+
+
+
+
+
+
+.loading-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+.loading {
+  width: 200px;
+  height: 200px;
+  border: 5px solid rgb(7, 7, 7);
+  border-left-style:dotted ;
+  border-right-style:dotted ;
+  border-right-width:5px ;
+  background: rgba(39, 180, 199, 0.326);
+
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  animation: loading 2s linear infinite;
+  -webkit-animation: loading  linear 8s infinite;
+  /* box-shadow:  0px 3px 5px 10px black; */
+}
+
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  /* /////////////////////////////////////////////////////////////////////////////// */
+
+  .profile-box .profileTitle {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 5px 30px;
+    
+  }
+
+  .profile-box .profileTitle span {
+    color:red;
+    text-transform: uppercase;
+   font-size: 25px;
+   font-family: cursive;
+    
+  }
+
+.profile-box .info {
+  padding: 20px 30px;
+  background: rgb(249, 4, 4);
+  color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+  box-shadow: 0px 0px 100px  10px rgb(15, 15, 15);
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: left;
+}
